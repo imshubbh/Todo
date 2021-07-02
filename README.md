@@ -1,12 +1,16 @@
-# A simple Django Project With CRUD and Function base view.
+ # A simple Django Application that performs CRUD operations with Function base view.
 
-
-
-
-
-<a href="https://ibb.co/TMVmhj1"><img src="https://i.ibb.co/23DgKVS/Screenshot-2021-07-02-at-4-35-27-PM.png" alt="TODO App Screenshot" border="3"></a>
-
-
-Todo App
+<div align="center">
+  
+  <p> 
+  </p>
+<br>
+    
+<a href="https://ibb.co/v1J8DqY"><img src="https://i.ibb.co/310Hkdz/Screenshot-2021-07-02-at-5-01-11-PM.png" alt="Screenshot-2021-07-02-at-5-01-11-PM" border="0"></a>
+  
+  <p> 
+    &#169 <a href="https://imshubh.com">Shubham Singh</a> 
+    </P>
+  </div>
 
 
