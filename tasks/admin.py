@@ -6,4 +6,5 @@ from .models import *
 
 admin.site.register(Task)
 
+admin.site.site_header = "TODO APP | Shubham Singh"
 
