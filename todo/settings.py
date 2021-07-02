@@ -10,32 +10,15 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/3.0/ref/settings/
 """
 
-# USER COMMENTS
-'''
-1 - We installed django and create a templete file using Django startproject command
-2 - Then we ran a loco server to observe the changes using the python manage.py runserver command
-3 - We then create a database and migrate that over using the python manage.py migrate command
-    The default database used by django is sql lite and the command creates a default table.
-4 - Python manage.py createsuperuser command create an admin 
-5 - We log into the Django administration to add more info to the tables
-6 - We need to name our app and then we let settings.py what name we gave it.
-    this load a defualt folder with the app name we gave it in this case tasks
-7 - We set us an http response that determines what the user will see
-'''
 
 import os
 
-# Build paths inside the project like this: os.path.join(BASE_DIR, ...)
+
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-
-# Quick-start development settings - unsuitable for production
-# See https://docs.djangoproject.com/en/3.0/howto/deployment/checklist/
-
-# SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = '%&66n7unms5k0rbz5@wfed8%!wq6gu8-egt=)v*lmnz4-$n!xh'
 
-# SECURITY WARNING: don't run with debug turned on in production!
+
 DEBUG = True
 
 ALLOWED_HOSTS = [
