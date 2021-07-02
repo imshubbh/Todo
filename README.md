@@ -1,4 +1,4 @@
- # A simple Django Application that performs CRUD operations with Function base view.
+ # A simple Django TODO Application that performs CRUD operations and Using Function based views
 
 <div align="center">
   
