@@ -1,0 +1,76 @@
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+	integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<style>
+	body {
+		background-color: #638CB8;
+	}
+
+	header {
+		text-align: center;
+		background: rgb(99, 140, 184);
+		background: linear-gradient(90deg, rgba(99, 140, 184, 1) 0%, rgba(0, 212, 255, 1) 40%, rgba(5, 179, 236, 1) 72%, rgba(99, 140, 184, 1) 93%);
+		padding-bottom: .25%;
+		padding-top: 1%;
+	}
+
+	header h2 {
+		font-size: 25pt;
+		color: fff;
+		font-weight: bold;
+		margin-bottom: 2%;
+
+	}
+
+	input {
+		width: 100%;
+		padding: 12px 20px;
+		margin: 8px 0;
+		box-sizing: border-box;
+	}
+
+	input::placeholder {
+		color: #d3d3d3;
+	}
+	label {
+		font-size: 20pt;
+		color: #906abd;
+		font-weight: bold;
+	}
+	input[type=checkbox]
+	{
+	/* Double-sized Checkboxes */
+	-ms-transform: scale(2); /* IE */
+	-moz-transform: scale(2); /* FF */
+	-webkit-transform: scale(2); /* Safari and Chrome */
+	-o-transform: scale(2); /* Opera */
+	transform: scale(2);
+	padding: 10px;
+	margin-top: -5%;
+	}
+
+	.submit {
+		background-color: #6BA3E8;
+	}
+
+	.center-column{
+		width:600px;
+		margin: 20px auto;
+		padding:20px;
+		background-color: #fff;
+		border-radius: 3px;
+		box-shadow: 6px 2px 30px 0px rgba(0,0,0,0.75);
+	}
+</style>
+
+<header>
+	<h2>Update Task</h2>
+</header>
+
+<div class="center-column">
+	<form method="POST" action="">
+		{% csrf_token %}
+
+		{{form}}
+		<input class="btn btn-info" type="submit" name="Update Task">
+	</form>
+</div>
