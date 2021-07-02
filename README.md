@@ -12,5 +12,3 @@
     &#169 <a href="https://imshubh.com">Shubham Singh</a> 
     </P>
   </div>
-
-
